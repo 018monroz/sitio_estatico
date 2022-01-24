@@ -3,15 +3,40 @@ body{
     background-color: rgb(69, 69, 184);
     font-family: sans-serif;
 }
-.uno{
-    background-color: rgb(31, 31, 78);
-    color: rgb(145, 176, 204);
-    display: inline;
-    width: 700;
+#titulo{
+    margin-top: 5%;
+    margin-left: 20%; /*Centrar título*/
+    margin-bottom: 30px;
 }
 
-.dos{
 
-    display:inline;
-    width: 300;
+table{
+    margin: auto;
+}
+
+td{
+
+border-collapse: collapse;
+
+}
+
+#t1{
+    background-color: rgb(32, 7, 43);
+    color: aliceblue;
+    width: 700px;
+    margin-left: 5%;
+    border: rgb(32, 7, 43) 10px solid;
+    
+    
+}
+#t2{
+    width: 300px;
+    vertical-align: top;
+    border: rgb(69, 69, 184) 10px solid;
+}
+
+#bombilla{
+    margin-left: 20%; /*Centrar título*/
+    width: auto;
+    height: 50px;
 }
