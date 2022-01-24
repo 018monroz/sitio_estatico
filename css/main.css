@@ -1,5 +1,17 @@
 body{
 
-    background-color: blue;
+    background-color: rgb(69, 69, 184);
+    font-family: sans-serif;
+}
+.uno{
+    background-color: rgb(31, 31, 78);
+    color: rgb(145, 176, 204);
+    display: inline;
+    width: 700;
+}
 
+.dos{
+
+    display:inline;
+    width: 300;
 }
