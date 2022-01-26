@@ -1,3 +1,16 @@
+:root{
+
+    /*Definición de colores*/
+    --blanco: #ffffff;
+    --negro: #212121;
+    --primario: #809bce;
+    --segundo: #95b8d1;
+    --tercero: #b8e0d2;
+    --cuarto: #d6eadf;
+    --quinto: #eac4d5;
+
+}
+
 body{
 
     background-color: rgb(69, 69, 184);
