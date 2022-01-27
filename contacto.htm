@@ -1,51 +1,63 @@
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=p, initial-scale=1.0">
-  <title>Contacto</title>
-  <link rel="stylesheet" href="css\main.css">
-  </head>
-<body>  
-  
-  <div class="contacto">
 
-    <div class="formulario">      
-      <h1>Formulario de contacto</h1>
-        <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
-          <form action="submeter-formulario.php" method="post">       
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css\main.css">
+</head>
+
+<body>
+
+    <div class="contacto">
+
+        <div class="formulario">
+            <h1>Formulario de contacto</h1>
+            <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+            <form action="submeter-formulario.php" method="post">
 
                 <p>
-                  <label for="nombre" class="colocar_nombre">Nombre
-                    <span class="obligatorio">*</span>
-                  </label>
-                    <input type="text"  id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
                 </p>
 
                 <p>
                     <label for="email" class="colocar_email">Email
-                      <span class="obligatorio">*</span>
+                        <span class="obligatorio">*</span>
                     </label>
-                      <input type="email"  id="email" required="obligatorio" placeholder="Escribe tu email">
-                  </p>
+                    <input type="email" id="email" required="obligatorio" placeholder="Escribe tu email">
+                </p>
 
-                  <p>
+                <p>
                     <label for="tele" class="colocar_telefono">Teléfono
                     </label>
-                      <input type="tele" id="telefono" placeholder="Escribe tu teléfono">
-                  </p>    
-                
-                  <p>
+                    <input type="tele" id="telefono" placeholder="Escribe tu teléfono">
+                </p>
+
+                <p>
                     <label for="asunto" class="colocar_asunto">Asunto
-                      <span class="obligatorio">*</span>
+                        <span class="obligatorio">*</span>
                     </label>
-                      <input type="text"  id="asunto" required="obligatorio" placeholder="Asunto">
-                  </p>    
-  
-  
-            
-          </form>
-    </div>  
-  </div>
+                    <input type="text" id="asunto" required="obligatorio" placeholder="Asunto">
+                </p>
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                        placeholder="Deja aquí tu comentario..."></textarea>
+                </p>
+
+
+
+
+
+            </form>
+        </div>
+    </div>
 
 </body>
+
 </html>
