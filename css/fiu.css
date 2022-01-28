@@ -66,8 +66,16 @@ body{
 }
 
 
+.tema{
+    position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
 .pimg{
-    opacity: 30%;
+    width: 100%;
+    height: auto;
     image-rendering: auto;
     
 }
