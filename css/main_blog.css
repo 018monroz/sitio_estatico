@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+h1{
+  color: ghostwhite;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 5000;
+  text-align: center;
+  background-color: rgb(74, 125, 134);
+
+  
+
+}
+html {
+  background-image: url(imagenes/2.jpg);
+}
+h2{
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: rgb(68, 119, 143);
+  color: ghostwhite;
+ 
+
+}
+h3{
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: ghostwhite;
+  
+  
+ 
+}
+p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  margin: 40px;
+  line-height : 33px;
+  text-align: justify;
+ 
+
+}
+img {
+  width: 500px;
+  display: block;
+  margin: auto;
+  border: rgb(62, 175, 219) 4px solid;
+  padding: 1px;
+}
+strong{
+  background-color: ghostwhite;
+
+}
+.juga {
+  width: 350px;
+  display: block;
+  margin: auto;
+  border: ghostwhite 4px solid;
+  padding: 1px;
+
+}
+iframe {
+  width: 800px;
+  display: block;
+  margin: auto;
+  border: ghostwhite 4px solid;
+  padding: 1px;
+  
+}
+h4 {
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: rgb(89, 140, 155);
+  color: ghostwhite;
+  
+}
