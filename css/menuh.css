@@ -18,10 +18,23 @@ body{
     font-family: 'Krub', sans-serif;
 }
 .vinculos{
-    width: 5%;
+    width: 25%;
     height: auto;
+    border-style:solid;
+    border-radius: 10px;
+    border-color: #212121;
 }
 
 h1{
     text-align: center;
+}
+
+
+.vinculos:hover {filter: opacity(.5);}
+.contenido:hover .vinculos {-webkit-transform:scale(1.25);transform:scale(1.25);}
+
+
+#contenedor{
+    display: flex;
+justify-content: space-around;
 }
