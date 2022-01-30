@@ -1,11 +1,24 @@
 
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
+:root{
+
+  /*Definición de colores*/
+  --blanco: #ffffff;
+  --negro: #212121;
+  --primario: #809bce;
+  --segundo: #95b8d1;
+  --tercero: #b8e0d2;
+  --cuarto: #d6eadf;
+  --quinto: rgb(184, 184, 230);
+
+}
 
 body{
-  height: 100%; 
+  height: 120%; 
   font-family: 'Noto Sans', sans-serif;
-  background-color: #447dab; 
+  background: linear-gradient(#809bce, #95b8d1, #b8e0d2);  
+  background-size: cover;
 }
 
 

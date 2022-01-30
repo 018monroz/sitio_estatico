@@ -10,7 +10,12 @@
     --quinto: #eac4d5;
 
 }
-
+body{
+    height: 120%; 
+    font-family: 'Krub', sans-serif;
+    background: linear-gradient(#ffffff,#809bce, #95b8d1, #b8e0d2);  
+    background-size: cover;
+  }
 body{
 
     background-color: rgb(184, 184, 230);

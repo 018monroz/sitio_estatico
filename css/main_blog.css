@@ -12,7 +12,11 @@
   --quinto: rgb(184, 184, 230);
 
 }
-
+body{
+  font-family: 'Krub', sans-serif;
+  background: linear-gradient(#ffffff,#b8e0d2, #ffffff,#b8e0d2);  
+  background-size: cover;
+}
 h1{
   color: var(--blanco);
   font-family: 'Noto Sans', sans-serif;

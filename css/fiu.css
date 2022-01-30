@@ -13,7 +13,12 @@
 
 }
 
-
+body{
+    height: 120%; 
+    font-family: 'Krub', sans-serif;
+    background: linear-gradient(#809bce, #95b8d1, #b8e0d2,#ffffff);  
+    background-size: cover;
+  }
 body{
 
     background-color: var(--primario);
